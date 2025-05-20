@@ -6,7 +6,7 @@ export default function Project() {
       id: 1,
       title: "Demo Portfolio Website",
       description: "The Pixel Pitate Porfolio Website for Portxfolio hackathon 2025",
-      link: "https://example.com",
+      link: "https://pixel-pirates-omega.vercel.app/",
       technologies: ["HTML", "CSS", "JavaScript"],
     },
     {
