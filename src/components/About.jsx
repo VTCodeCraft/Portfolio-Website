@@ -1,4 +1,6 @@
 import React from "react";
+// Import your profile image
+import profileImage from "../components/img/profilepic.jpg"; // Update this path based on where you store your image
 
 function About() {
   return (
@@ -21,8 +23,8 @@ function About() {
         <div className="relative flex justify-center mb-16">
           <div className="absolute inset-0 bg-gradient-to-r from-indigo-600 via-purple-600 to-teal-500 rounded-full blur-lg opacity-20"></div>
           <img
-            src="https://via.placeholder.com/200"
-            alt="Profile"
+            src={profileImage} // Using the imported image
+            alt="Vishesh Tripathi Profile"
             className="rounded-full transform hover:scale-110 transition duration-300 shadow-lg relative z-10 border-4 border-white w-48 h-48 object-cover"
           />
         </div>
