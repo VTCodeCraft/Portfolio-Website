@@ -4,32 +4,25 @@ export default function Project() {
   const projects = [
     {
       id: 1,
-      title: "Weather App",
-      description: "A React app to check the weather.",
+      title: "Demo Portfolio Website",
+      description: "The Pixel Pitate Porfolio Website for Portxfolio hackathon 2025",
       link: "https://example.com",
-      technologies: ["React", "OpenWeather API", "Tailwind CSS"],
+      technologies: ["HTML", "CSS", "JavaScript"],
     },
     {
       id: 2,
-      title: "To-Do List",
-      description: "A simple task manager.",
-      link: "https://example.com",
-      technologies: ["React", "LocalStorage", "Tailwind CSS"],
+      title: "Abhyaas AI",
+      description: "Your Smart Learning Companion. (Group project)",
+      link: "https://abhyaas-ai.vercel.app/",
+      technologies: ["React", "Gemini APIS", "Tailwind CSS","Next.js"],
     },
     {
       id: 3,
       title: "Portfolio Website",
       description:
         "A modern portfolio website built with React and Tailwind CSS.",
-      link: "https://example.com",
+      link: "https://portfolio-website-lemon-three-58.vercel.app/",
       technologies: ["React", "Tailwind CSS", "Responsive Design"],
-    },
-    {
-      id: 4,
-      title: "E-commerce Platform",
-      description: "A full-stack e-commerce solution with user authentication.",
-      link: "https://example.com",
-      technologies: ["React", "Node.js", "MongoDB", "Express"],
     },
   ];
 
