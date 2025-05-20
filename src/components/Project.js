@@ -24,6 +24,14 @@ export default function Project() {
       link: "https://portfolio-website-lemon-three-58.vercel.app/",
       technologies: ["React", "Tailwind CSS", "Responsive Design"],
     },
+    {
+      id: 4,
+      title: "Netflix Clone",
+      description:
+        "Frontend Netflix clone",
+      link: "https://netflix-clone-sand-chi.vercel.app/",
+      technologies: ["HTML", "CSS", "JavaScript","Local Storage"],
+    },
   ];
 
   return (
