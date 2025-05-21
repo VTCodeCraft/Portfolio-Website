@@ -6,8 +6,8 @@ function About() {
   return (
     <div className="min-h-screen w-full bg-gradient-to-b from-white to-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        {/* Hero Section */}
-        <div className="text-center space-y-8 mb-16">
+        {/* Hero Section with ID for navbar scrolling */}
+        <div id="about" className="text-center space-y-8 mb-16 pt-16">
           <h1 className="text-5xl font-bold bg-gradient-to-r from-indigo-600 via-purple-600 to-teal-500 bg-clip-text text-transparent">
             Hi, I'm Vishesh Tripathi
           </h1>
