@@ -72,7 +72,7 @@ function About() {
               Programming Languages & DSA
             </h3>
             <p className="text-lg text-gray-600">
-              Knowledgeable in Java, C/C++, Python, MySQL, and have a basic
+              Strong command of Java, C/C++, Python, MySQL, and have a basic
               understanding of Data Structures & Algorithms in Java.
             </p>
           </div>
