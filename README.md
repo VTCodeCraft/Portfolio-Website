@@ -46,7 +46,7 @@ To run this project locally:
 ### 1. Clone the Repository
 
 ```bash
-git clone [https://github.com/VTCodeCraft/Portfolio-Website.git](https://github.com/VTCodeCraft/Portfolio-Website.git)
+git clone https://github.com/VTCodeCraft/Portfolio-Website.git
 cd Portfolio-Website
 ````
 
