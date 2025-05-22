@@ -13,9 +13,7 @@ function About() {
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
             Skilled in Web Development with expertise in HTML, CSS, JavaScript,
-            ReactJS, Node.js, Express.js, Tailwind CSS, and MongoDB. I also have
-            knowledge of Java, C/C++, Python, MySQL, and basic Data Structures &
-            Algorithms.
+            ReactJS, Node.js, Express.js, Tailwind CSS, and MongoDB. With a strong command of Java, C/C++, and Python with hands-on experience in MySQL and a solid grasp of Data Structures and Algorithms.
           </p>
         </div>
 
