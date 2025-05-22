@@ -11,7 +11,7 @@ Welcome to the official repository of my **personal portfolio website**, designe
 👉 [Visit My Portfolio](https://portfolio-website-lemon-three-58.vercel.app/)
 
 
-```markdown
+
 ## 🛠️ Tech Stack
 
 - **Framework:** React.js (with JavaScript)
@@ -20,11 +20,12 @@ Welcome to the official repository of my **personal portfolio website**, designe
 - **Tooling:** React Scripts
 - **Deployment:** GitHub Pages
 
-```
+
+
+
 ## 📁 Project Structure
 
-
-````
+```markdown
 Portfolio-Website/
 ├── public/             # Static assets
 ├── src/
@@ -35,9 +36,8 @@ Portfolio-Website/
 ├── package.json        # Project metadata and scripts
 └── README.md           # Project overview
 
-````
+```
 
----
 
 ## ⚙️ Getting Started
 
