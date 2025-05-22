@@ -23,22 +23,22 @@ export default function Contact() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    
+
     try {
-      // Replace with your own email
-      const mailtoLink = `mailto:contact@work.vishesh12.05@gmail.com?subject=Portfolio Contact: ${encodeURIComponent(formData.name)}&body=${encodeURIComponent(`Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`)}`;
+      const mailtoLink = `mailto:work.vishesh12.05@gmail.com?subject=Portfolio Contact: ${encodeURIComponent(formData.name)}&body=${encodeURIComponent(`Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`)}`;
       window.location.href = mailtoLink;
-      
+
+
       // Show success message
       setFormStatus({
         submitted: true,
         error: false,
         message: "Thank you for your message! I'll get back to you soon.",
       });
-      
+
       // Reset form after successful submission
       setFormData({ name: "", email: "", message: "" });
-      
+
       // Reset status message after 5 seconds
       setTimeout(() => {
         setFormStatus({
@@ -71,17 +71,16 @@ export default function Contact() {
         {/* Contact form */}
         <div className="max-w-2xl mx-auto bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
           {formStatus.message && (
-            <div 
-              className={`mb-6 p-4 rounded-lg ${
-                formStatus.error 
-                  ? "bg-red-100 text-red-700 border border-red-300" 
-                  : "bg-green-100 text-green-700 border border-green-300"
-              }`}
+            <div
+              className={`mb-6 p-4 rounded-lg ${formStatus.error
+                ? "bg-red-100 text-red-700 border border-red-300"
+                : "bg-green-100 text-green-700 border border-green-300"
+                }`}
             >
               {formStatus.message}
             </div>
           )}
-          
+
           <form onSubmit={handleSubmit} className="space-y-6">
             <div>
               <label
@@ -101,7 +100,7 @@ export default function Contact() {
                 className="mt-1 block w-full border border-gray-300 rounded-lg p-3 focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 transition-all duration-200"
               />
             </div>
-            
+
             <div>
               <label
                 htmlFor="email"
@@ -120,7 +119,7 @@ export default function Contact() {
                 className="mt-1 block w-full border border-gray-300 rounded-lg p-3 focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 transition-all duration-200"
               />
             </div>
-            
+
             <div>
               <label
                 htmlFor="message"
@@ -148,16 +147,17 @@ export default function Contact() {
             </button>
           </form>
         </div>
-        
+
         <div className="mt-12 text-center">
           <p className="text-gray-600">
             You can also reach me directly at{" "}
-            <a 
-              href="mailto:contact@work.vishesh12.05@gmail.com" 
+            <a
+              href="mailto:work.vishesh12.05@gmail.com"
               className="text-indigo-600 hover:text-indigo-800 font-medium"
             >
-              contact@work.vishesh12.05@gmail.com
+              work.vishesh12.05@gmail.com
             </a>
+
           </p>
         </div>
       </div>

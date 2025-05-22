@@ -9,7 +9,7 @@ function Footer() {
       // Calculate header height to offset scroll position
       const navbarHeight = 64; // Equivalent to h-16 in Tailwind (4rem = 64px)
       const offsetPosition = section.offsetTop - navbarHeight;
-      
+
       window.scrollTo({
         top: offsetPosition,
         behavior: "smooth"
@@ -28,12 +28,13 @@ function Footer() {
             </p>
             <p className="text-white/80 mt-2 flex items-center justify-center md:justify-start">
               <Mail className="h-4 w-4 mr-2" />
-              <a 
-                href="mailto:contact@work.vishesh12.05@gmail.com" 
+              <a
+                href="mailto:work.vishesh12.05@gmail.com"
                 className="hover:text-teal-200 transition-colors duration-200"
               >
-                contact@work.vishesh12.05@gmail.com
+                work.vishesh12.05@gmail.com
               </a>
+
             </p>
           </div>
 
