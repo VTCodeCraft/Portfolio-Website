@@ -156,6 +156,7 @@ export default function Contact() {
               className="text-indigo-600 hover:text-indigo-800 font-medium"
             >
               work.vishesh12.05@gmail.com
+              
             </a>
 
           </p>
