@@ -58,10 +58,10 @@ function Footer() {
               </li>
               <li>
                 <button
-                  onClick={() => scrollToSection("experience")}
+                  onClick={() => scrollToSection("contact")}
                   className="text-white/80 hover:text-teal-200 transition-colors duration-200 cursor-pointer"
                 >
-                  Experience
+                  Contact
                 </button>
               </li>
               <li>
