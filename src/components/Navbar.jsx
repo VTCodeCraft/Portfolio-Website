@@ -26,7 +26,7 @@ export default function Navbar() {
   // Track active section on scroll
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ["about", "skills", "experience", "projects", "contact"];
+      const sections = ["about", "skills","projects", "contact"];
       const scrollPosition = window.scrollY + 100; // Adding offset for better detection
       
       for (const section of sections) {
@@ -158,12 +158,6 @@ export default function Navbar() {
                 className={getMobileLinkClasses("skills")}
               >
                 Skills
-              </button>
-              <button
-                onClick={() => scrollToSection("experience")}
-                className={getMobileLinkClasses("experience")}
-              >
-                Experience
               </button>
               <button
                 onClick={() => scrollToSection("projects")}
